@@ -2,8 +2,11 @@
 A pure Python implementation of the circle packing algorithm detailed in Wang et al. (2006). Visualization of large hierarchical data by circle packing. *Proc of the SIGCHI*, 517-520.
 
 # Installation
-
-Using `setup.py`
+Using `pip`:
+```
+pip install packcircles
+```
+or directly using `setup.py`:
 ```
 git clone https://github.com/mhtchan/packcircles.git
 cd packcircles
