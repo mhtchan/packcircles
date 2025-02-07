@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 from matplotlib import colormaps
 radii =  [28,12,51,26,10,16,24,25,59,11,29,40,16,11,10,26,39,16,48,36,28]
 fig, ax = plt.subplots()
-cmap = colormaps('coolwarm_r')
+cmap = colormaps['coolwarm_r']
 circles = pc.pack(radii)
 for (x,y,radius) in circles:
     patch = plt.Circle(
